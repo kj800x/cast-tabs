@@ -1,0 +1,10 @@
+{
+  "name": "cast-tabs-server",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Kevin Johnson <kevin@kj800x.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node -r esm index.js"
+  }
+}

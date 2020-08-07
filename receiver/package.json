@@ -1,0 +1,23 @@
+{
+  "name": "cast-tabs-receiver",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Kevin Johnson <kevin@kj800x.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    "last 2 chrome versions"
+  ]
+}
