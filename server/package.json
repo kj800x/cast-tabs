@@ -1,10 +1,17 @@
 {
   "name": "cast-tabs-server",
-  "version": "0.0.1",
-  "private": true,
-  "author": "Kevin Johnson <kevin@kj800x.com>",
-  "license": "MIT",
+  "version": "0.1.0",
   "scripts": {
-    "start": "node -r esm index.js"
+    "start": "node -r esm src/server.js",
+    "wipe": "rm -f db.db && sqlite3 db.db < createDb.sql"
+  },
+  "dependencies": {
+    "@kj800x/localproxy-client": "0.2.0",
+    "apollo-server-express": "^2.19.0",
+    "better-sqlite3": "^7.1.1",
+    "dataloader": "^2.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "graphql-type-json": "^0.3.2"
   }
 }
