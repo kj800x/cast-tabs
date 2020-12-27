@@ -3,6 +3,7 @@ import { db } from "../../db";
 const CREATE_SONG = db.prepare(`INSERT INTO Song (
     title,
     artist,
+    album,
     source_url,
     content
   ) VALUES (
@@ -13,9 +14,10 @@ const CREATE_SONG = db.prepare(`INSERT INTO Song (
   )`);
 
 export const createSong = (_, { payload }, context) => {
-  const { title, artist, url, content } = payload;
+  const { title, artist, album, url, content } = payload;
 
-  const id = CREATE_SONG.run(title, artist, url, content).lastInsertRowid;
+  const id = CREATE_SONG.run(title, artist, album, url, content)
+    .lastInsertRowid;
 
   return context.dataLoaders.Song.load(id);
 };

@@ -7,6 +7,7 @@ export const typeDefs = gql`
     id: Int!
     title: String!
     artist: String!
+    album: String
     url: String
     content: JSON
   }

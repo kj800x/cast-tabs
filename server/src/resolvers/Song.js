@@ -9,6 +9,7 @@ export const Song = {
     id: get("id"),
     title: get("title"),
     artist: get("artist"),
+    album: get("album"),
     url: get("url"),
     content: ({ content }) => JSON.parse(content),
   },
