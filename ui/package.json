@@ -5,6 +5,7 @@
   "author": "Kevin Johnson <kevin@kj800x.com>",
   "license": "MIT",
   "dependencies": {
+    "@kj800x/localproxy-react-scripts": "0.3.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
