@@ -43,6 +43,6 @@
   "##homepage": "/song/",
   "proxy": "http://localhost",
   "devDependencies": {
-    "@kj800x/localproxy-react-scripts": "0.3.0"
+    "@kj800x/localproxy-react-scripts": "0.3.4"
   }
 }
