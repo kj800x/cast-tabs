@@ -6,7 +6,7 @@
     "wipe": "rm -f db.db && sqlite3 db.db < createDb.sql"
   },
   "dependencies": {
-    "@kj800x/localproxy-client": "0.3.0",
+    "@kj800x/localproxy-client": "0.3.4",
     "apollo-server-express": "^2.19.0",
     "better-sqlite3": "^7.1.1",
     "dataloader": "^2.0.0",
